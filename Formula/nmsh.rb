@@ -1,8 +1,8 @@
 class Nmsh < Formula
   desc "Terminal frontend for your real zsh, Bash or Fish shell"
   homepage "https://github.com/raiseCatError/notMyShell"
-  url "https://github.com/raiseCatError/notMyShell/archive/refs/tags/v0.17.0.tar.gz"
-  sha256 "037d4faa263649d7e804aae02c80531d29e253f25f23198e0b8d322b2beb8715"
+  url "https://github.com/raiseCatError/notMyShell/archive/refs/tags/v0.20.0.tar.gz"
+  sha256 "4b3a21b36bf4e169b5481b7c553092d05c64c91d92abfa747a3607adaa97c424"
   license "GPL-3.0-only"
 
   depends_on "python" => :build

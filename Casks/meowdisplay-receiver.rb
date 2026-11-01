@@ -2,8 +2,7 @@ cask "meowdisplay-receiver" do
   version "1.20.0"
   sha256 "d66b751794d7aad01904a6cab596ae2aa0bf3a328adead57be3e56cb96651fe1"
 
-  url "https://github.com/raiseCatError/meowdisplay/releases/download/v#{version}/MeowDisplayReceiver.dmg",
-      verified: "github.com/raiseCatError/meowdisplay/"
+  url "https://github.com/raiseCatError/meowdisplay/releases/download/v#{version}/MeowDisplayReceiver.dmg"
   name "MeowDisplay Receiver"
   desc "Receiver that turns a spare computer into a MeowDisplay screen"
   homepage "https://meowdisplay.app/"

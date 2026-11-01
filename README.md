@@ -48,7 +48,9 @@ Pairing and trusted devices are kept unless you use `--zap`. The iPhone and iPad
 
 ## Release maintenance
 
-This tap's Homebrew-generated workflows own formula updates; the [NMSh source repository](https://github.com/raiseCatError/notMyShell) does not push updates into the tap.
+This tap's Homebrew-generated workflows own formula updates; the [NMSh](https://github.com/raiseCatError/notMyShell) and [MeowDisplay](https://github.com/raiseCatError/meowdisplay) source repositories do not push updates into the tap.
+
+The MeowDisplay casks (`meowdisplay`, `meowdisplay-receiver`) follow the latest stable GitHub Release of `raiseCatError/meowdisplay` through `livecheck`. The same daily `autobump.yml` run opens a cask-update PR with the new version and SHA-256. Merge it normally once `tests.yml` passes; casks have no bottles, so `publish.yml` is not needed.
 
 1. Publish a stable NMSh release with a version tag such as `v0.17.0`. The formula's GitHub archive URL lets Homebrew livecheck discover newer version tags; conventional prerelease names such as `-alpha`, `-beta` and `-rc` are filtered out. Tag discovery does not inspect GitHub's release draft/prerelease flags, so use prerelease names for prerelease tags.
 2. `autobump.yml` runs daily at 05:55 UTC and uses `brew bump` to open a formula-update PR with the new URL and checksum.

@@ -24,6 +24,28 @@ tap "raiseCatError/tap"
 brew "raiseCatError/tap/nmsh"
 ```
 
+## Install MeowDisplay (Mac)
+
+```sh
+brew install --cask raiseCatError/tap/meowdisplay
+```
+
+Installs the notarized MeowDisplay Mac app (macOS 14 or later) into `/Applications`. For a spare Mac that should only act as a display, install the receiver (macOS 12 or later):
+
+```sh
+brew install --cask raiseCatError/tap/meowdisplay-receiver
+```
+
+Both casks download the DMG from the matching [GitHub Release](https://github.com/raiseCatError/meowdisplay/releases), pinned by SHA-256. The apps are signed with a Developer ID and notarized by Apple.
+
+```sh
+brew upgrade --cask meowdisplay
+brew uninstall --cask meowdisplay
+brew uninstall --cask --zap meowdisplay   # also removes preferences and caches
+```
+
+Pairing and trusted devices are kept unless you use `--zap`. The iPhone and iPad app is on the [App Store](https://apps.apple.com/us/app/meowdisplay/id6817552864). For a `Brewfile`: `cask "raiseCatError/tap/meowdisplay"`.
+
 ## Release maintenance
 
 This tap's Homebrew-generated workflows own formula updates; the [NMSh source repository](https://github.com/raiseCatError/notMyShell) does not push updates into the tap.

@@ -1,10 +1,10 @@
 cask "meowdisplay" do
-  version "1.20.0"
-  sha256 "ab684d6bf4252e9f92c7d1a9b49a46550fefac9377af30253b808bed9be4202c"
+  version "2.0.0"
+  sha256 "9b9fb406774d40ca737d74fb597d9dd8eaf7b3877d6bc4e6d294fff7d239bae7"
 
   url "https://github.com/raiseCatError/meowdisplay/releases/download/v#{version}/MeowDisplay.dmg"
   name "MeowDisplay"
-  desc "Mirror or extend the screen onto an iPhone, iPad or second computer"
+  desc "Share your Mac on other devices or receive another Mac"
   homepage "https://meowdisplay.app/"
 
   livecheck do

@@ -30,7 +30,7 @@ brew "raiseCatError/tap/nmsh"
 brew install --cask raiseCatError/tap/meowdisplay
 ```
 
-Installs the notarized MeowDisplay Mac app (macOS 14 or later) into `/Applications`. For a spare Mac that should only act as a display, install the receiver (macOS 12 or later):
+Installs stable MeowDisplay 2.0, the unified Mac app that can both share and receive (macOS 14 or later), into `/Applications`. For a spare Mac that should only act as a display, install the receiver (macOS 12 or later):
 
 ```sh
 brew install --cask raiseCatError/tap/meowdisplay-receiver
@@ -44,7 +44,7 @@ brew uninstall --cask meowdisplay
 brew uninstall --cask --zap meowdisplay   # also removes preferences and caches
 ```
 
-Pairing and trusted devices are kept unless you use `--zap`. The iPhone and iPad app is on the [App Store](https://apps.apple.com/us/app/meowdisplay/id6817552864). For a `Brewfile`: `cask "raiseCatError/tap/meowdisplay"`.
+Pairing and trusted devices are kept unless you use `--zap`. iPhone and iPad 2.0 is officially released on the [App Store](https://apps.apple.com/us/app/meowdisplay/id6817552864). For a `Brewfile`: `cask "raiseCatError/tap/meowdisplay"`.
 
 ## Release maintenance
 

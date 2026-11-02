@@ -4,7 +4,7 @@ cask "meowdisplay" do
 
   url "https://github.com/raiseCatError/meowdisplay/releases/download/v#{version}/MeowDisplay.dmg"
   name "MeowDisplay"
-  desc "Share your Mac on other devices or receive another Mac"
+  desc "Mirror, extend and control your desktop from phones, tablets and computers"
   homepage "https://meowdisplay.app/"
 
   livecheck do

@@ -1,6 +1,6 @@
 cask "meowdisplay-receiver" do
-  version "2.0.0"
-  sha256 "3860b8941aa48e8f48b59f7252be8fe742c6bbd01c22b067a5861cb847581d98"
+  version "2.1.0"
+  sha256 "4981863429e85dacf916287e466867ff1c38c838bc364c0ae483739b8d17eaf7"
 
   url "https://github.com/raiseCatError/meowdisplay/releases/download/v#{version}/MeowDisplayReceiver.dmg"
   name "MeowDisplay Receiver"

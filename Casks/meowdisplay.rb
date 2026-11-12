@@ -1,6 +1,6 @@
 cask "meowdisplay" do
-  version "2.0.0"
-  sha256 "9b9fb406774d40ca737d74fb597d9dd8eaf7b3877d6bc4e6d294fff7d239bae7"
+  version "2.1.0"
+  sha256 "d02273969b8a00fc7269f69ab6440bae92028bcb55b9e5f4765cb5d925e8c316"
 
   url "https://github.com/raiseCatError/meowdisplay/releases/download/v#{version}/MeowDisplay.dmg"
   name "MeowDisplay"
